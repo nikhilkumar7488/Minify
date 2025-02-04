@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav>#nav1>a{
+    text-decoration: none;
+    color: gray;
+    padding: 35px;
+}
+
+nav>#nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+
+}
+
+#img-ava{
+    height: 45px;
+}
+#img-cart{
+    height: 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    border: 1px solid beige;
+    box-shadow: gray;
+}
+
+nav>#nav2>img{
+    padding: 20px;
+}
+nav>#nav2{
+    padding-right: 50px;
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+section>#section>img{
+    height: 400px;
+    border-radius: 15px;
+    width:500px;
+}
+
+section>#section{
+    margin-top: 70px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 50%vh;
+    width: 50%vw;
+}
+
+section>#section>#sec-img-pro{
+  
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
+
+section>#section>#sec-img-pro>img{
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+
+}
+
+section>#section>h4{
+    color: hsl(26, 100%, 55%);
+}
+
+section>#section>h1{
+   font-Weight: 900;
+   font-size: 2.5rem;
+}
+
+section>#section>#sec-img-pro>.img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+#addcart{
+    height: 40px;
+    width: 200px;
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 5px;
+    color: white;
+    box-shadow: none;
+    border: none;
+    margin-top: 50px;
+
+}
+ button> #btncrt{
+    background-color: white;
+}
+
+section>#section>#sec-img-pro1{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-bottom: 40px ;
+    padding-bottom: 30px;
+
+}
+section>#section>#sec-img-pro1>.img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+section>#section>#sec-img-pro1>div>.img{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+section>#section>#sec-img-pro1>#imgplus{
+    height: 10px;
+    width: 250px;
+}
+
+section>#section>h2>span{
+    color: hsl(26, 100%, 55%);
+    font-size: 0.9em;
+}
+section>#section>h2>p{
+    color: gray;
+    font-size: 15px;
+}
+
+
+section>#section>p{
+    color: gray;
+}
